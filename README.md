@@ -62,7 +62,7 @@ To update the LCD screen, simply run the desired script, for example ```python d
 
 #### TODO
 - ~~Tidy up cpu temp output text~~
-- make hello world interactive
+- ~~make hello world interactive~~
 - improve ip_address to detect what device is in use (ethernet/wlan) and display that ip
 - combine ip_address, display_temp
 - make interctive script to choose what to display
