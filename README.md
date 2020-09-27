@@ -48,7 +48,7 @@ sudo i2cdetect -y 1
 
 ## The scripts
 
-Included in the pi_lcd directory are thees python scripts:
+Included in the ```scripts``` directory are these python scripts:
 - I2C_LCD_driver.py
 	- driver for the pi to communicate with the screen via I2C
 - hello_world.py
