@@ -61,7 +61,7 @@ Included in the ```scripts``` directory are these python scripts:
 To update the LCD screen, simply run the desired script, for example ```python display_temp.py``` will run the temperature script. In the temperature scripts case, pressing ```ctrl + C``` will cancel the script from running as the script loops to update the temperature over time.
 
 #### TODO
-- Tidy up cpu temp output text
+- ~~Tidy up cpu temp output text~~
 - make hello world interactive
 - improve ip_address to detect what device is in use (ethernet/wlan) and display that ip
 - combine ip_address, display_temp
