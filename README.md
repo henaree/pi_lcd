@@ -59,3 +59,9 @@ Included in the ```scripts``` directory are these python scripts:
 	- Updates the screen with the latest temperature of the CPU of the pi
 
 To update the LCD screen, simply run the desired script, for example ```python display_temp.py``` will run the temperature script. In the temperature scripts case, pressing ```ctrl + C``` will cancel the script from running as the script loops to update the temperature over time.
+
+#### TODO
+- Tidy up cpu temp output text
+- make hello world interactive
+- combine ip_address, display_temp
+- make interctive script to choose what to display
