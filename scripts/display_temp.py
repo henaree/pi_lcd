@@ -12,7 +12,7 @@ def cpu_temp():
         for _ in range(10):
                 temp = os.popen("vcgencmd measure_temp").readline() #get temp reading
 
-                mylcd.lcd_display_string("CPU : {} C".format(temp), 1) #prints temp on LCD
+                mylcd.lcd_display_string(" CPU {}".format(temp), 1) #prints temp on LCD
 
                 sleep(1) #sleeps for (x) seconds before restarting loop
 
