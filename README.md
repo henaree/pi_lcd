@@ -19,6 +19,7 @@ Connect the HPIO pins of the raspberry pi to the I2C extender as follows:
 - Pin 5 GPIO 3 (I2C1 SCL) 	- SCL
 - Pin 6 Ground 				- GND
 
+![](https://raw.githubusercontent.com/henaree/pi_lcd/master/RPi_i2C_LCD_bb.png)
 ### I2C Setup
 
 - Install the needed tools
