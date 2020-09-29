@@ -46,11 +46,16 @@ def run_cmd(cmd):
     output = p.communicate()[0]
     return output.decode('ascii')
 
+#clear the screen of anything else
+mylcd.lcd_clear()
+
 # before we start the main loop - detect active network device and ip address
-sleep(2)
+mylcd.lcd_display_string("Initialising...", 1)
+sleep(30)
 interface = find_interface()
 ip_address = parse_ip()
 
 while True:
+
         cpu_temp()
         mylcd.lcd_display_string(" {}".format(ip_address), 2)
