@@ -57,12 +57,13 @@ Included in the ```scripts``` directory are these python scripts:
 	- Displays ip address of wlan
 - display_temp.py 
 	- Updates the screen with the latest temperature of the CPU of the pi
+- display_ip_tem.py
+	- Displays both ip address and CPU temp of the pi
 
 To update the LCD screen, simply run the desired script, for example ```python display_temp.py``` will run the temperature script. In the temperature scripts case, pressing ```ctrl + C``` will cancel the script from running as the script loops to update the temperature over time.
 
 #### TODO
-- ~~Tidy up cpu temp output text~~
-- ~~make hello world interactive~~
-- ~~improve ip_address to detect what device is in use (ethernet/wlan) and display that ip~~
-- combine ip_address, display_temp
+
+- ~~combine ip_address, display_temp~~
+- run script as a service
 - make interctive script to choose what to display
