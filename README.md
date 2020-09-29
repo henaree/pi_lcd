@@ -62,8 +62,19 @@ Included in the ```scripts``` directory are these python scripts:
 
 To update the LCD screen, simply run the desired script, for example ```python display_temp.py``` will run the temperature script. In the temperature scripts case, pressing ```ctrl + C``` will cancel the script from running as the script loops to update the temperature over time.
 
+## Running on boot
+
+### Cron
+
+```bash
+crontab -e
+```
+
+Add the line ```@reboot /usr/bin/python /home/pi/pi_lcd/scripts/display_ip_tem.py```, ensuring you ammend to match where the script is located. 
+
 #### TODO
 
 - ~~combine ip_address, display_temp~~
-- run script as a service
+- ~~run script as a service~~
 - make interctive script to choose what to display
+- add code to prevent script from running if another instance of the script is already running
